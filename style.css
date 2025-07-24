@@ -1,10 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    background-color: rgb(213, 231, 225);
 }
 body{
 font-family: sans-serif;
 height: 100%;
+position: relative;
 }
 svg {
     height: 20px;
@@ -63,10 +65,28 @@ justify-content: space-between;
 
 }
 .fard{
-   
+display: flex; 
+flex-direction: column;  
     gap: 20px;
 }
+.a2{
+    display: flex; 
+    justify-content: space-between;
+}
+.a4{
+    display: flex; 
+    justify-content: space-between;  
+}
 
-
-
+.a6{
+      display: flex; 
+    justify-content: space-between;
+}
+.svgg{
+height: 60px;
+width: 60px;
+position: fixed;
+bottom: -120%;
+left: 85%;
+}
 
