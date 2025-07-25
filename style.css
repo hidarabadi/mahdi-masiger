@@ -1,92 +1,123 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgb(213, 231, 225);
+
 }
-body{
-font-family: sans-serif;
-height: 100%;
-position: relative;
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    position: relative;
+    background-color: rgb(170, 164, 164);
 }
+
 svg {
     height: 20px;
     width: 20px;
+    display: flex;
+    
 }
-.countainer{
-height: 100%;
-padding: 14px;
+
+.countainer {
+    height: 100%;
+    padding: 14px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+
 }
+
 img {
     height: 40px;
     width: 40px;
     border-radius: 100%;
 }
-.swg{
-display: flex;
-justify-content: right;
-flex-direction: row;
-}
-.span1{
-color: black;
-font-family: sans-serif;
-font-weight: bold;
-}
-.profile{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-}
-.q1{
-color: black;
-display: flex;
-flex-direction: column;
-}
-.w1{
-display: flex;
-flex-direction: column;
-font-weight: bold;
-color: black;
-}
-.w2{
-color: rgb(65, 53, 53);
-font-weight: 200px;
-display: flex;
-justify-content: center;
-}
-.w3{
-color: rgb(65, 53, 53);
-display: flex;
-justify-content: end;
 
-}
-.head{
+.swg {
     display: flex;
-justify-content: space-between;
+    justify-content: right;
+    flex-direction: row;
+    position: absolute;
+    bottom: 96%;
+    left: 90%;
+}
+
+.span1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.q1 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.w1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: black;
+}
+
+.w2 {
+    color: rgb(65, 53, 53);
+    font-weight: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.w3 {
+    color: rgb(65, 53, 53);
+    display: flex;
+    justify-content: end;
 
 }
-.fard{
-display: flex; 
-flex-direction: column;  
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.fard {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
-.a2{
-    display: flex; 
+
+.a2 {
+    display: flex;
     justify-content: space-between;
-}
-.a4{
-    display: flex; 
-    justify-content: space-between;  
+    flex: 1px;
 }
 
-.a6{
-      display: flex; 
+.a4 {
+    display: flex;
     justify-content: space-between;
-}
-.svgg{
-height: 60px;
-width: 60px;
-position: fixed;
-bottom: -120%;
-left: 85%;
+    flex: 1px;
 }
 
+.a6 {
+    display: flex;
+    justify-content: space-between;
+
+    flex: 1px;
+}
+
+.svgg {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: -120%;
+    left: 85%;
+}
